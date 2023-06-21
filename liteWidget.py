@@ -163,7 +163,7 @@ class Ui_ULTRApy_Lite(object):
         self.graph_widget.setBackground('w')
         self.graph_widget.setLabel('left', 'Distance (m)', color='k')
         self.graph_widget.setLabel('bottom', 'Time (s)', color='k')
-        self.graph_widget.showGrid(x=True, y=True)
+        # self.graph_widget.showGrid(x=True, y=True)
         axis_pen = pg.mkPen(color='black')
         self.graph_widget.getAxis('bottom').setPen(axis_pen)
         self.graph_widget.getAxis('left').setPen(axis_pen)
